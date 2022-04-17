@@ -1,13 +1,12 @@
 import React from 'react';
 import './css/base.css';
-
 function base(){
-    return <div>
+    return( <div>
         <div>
-            <div class="base">
-                <div class="title">
+            <div className="base">
+                <div className="title">
                     <ul>
-                        <li>@Pikabook</li>
+                        <li>Pikabook</li>
                         <li>Products</li>
                         <li>Developers</li>
                         <li>Pricing</li>
@@ -18,6 +17,7 @@ function base(){
             </div>
         </div>
     </div>
+    );
 }
 
 export default base();

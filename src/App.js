@@ -1,8 +1,7 @@
-import logo from './logo.svg';
 import base from './base';
 import './App.css';
 
-function App() {
+function App(){
   return (
       {base}
   );
